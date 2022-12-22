@@ -1,0 +1,26 @@
+Source: node-uri-path
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Thorsten Alteholz <debian@alteholz.de>
+Section: javascript
+Testsuite: autopkgtest-pkg-nodejs
+Priority: optional
+Build-Depends: debhelper-compat (= 12),
+               dh-buildinfo,
+               mocha,
+               nodejs,
+               node-should,
+               pkg-js-tools (>= 0.8.8)
+Standards-Version: 4.5.0
+Vcs-Browser: https://salsa.debian.org/js-team/node-uri-path
+Vcs-Git: https://salsa.debian.org/js-team/node-uri-path.git
+Homepage: https://github.com/UltCombo/uri-path
+
+Package: node-uri-path
+Architecture: all
+Depends: ${misc:Depends},
+         nodejs
+Description: Convert relative file system paths into safe URI paths
+ This module can be used to convert relative file system paths into
+ safe URI paths.
+ .
+ Node.js is an event-based server-side JavaScript engine.

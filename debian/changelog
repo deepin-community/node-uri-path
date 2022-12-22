@@ -1,0 +1,39 @@
+node-uri-path (1.0.0-4) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Set debhelper-compat version in Build-Depends.
+  * Set upstream metadata fields: Bug-Submit.
+  * Remove obsolete fields Contact, Name from debian/upstream/metadata
+    (already present in machine-readable debian/copyright).
+  * Update standards version to 4.5.0, no changes needed.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Sat, 28 Aug 2021 22:38:04 +0100
+
+node-uri-path (1.0.0-3) unstable; urgency=medium
+
+  * Team upload
+  * Switch install to pkg-js-tools
+
+ -- Xavier Guimard <yadd@debian.org>  Sat, 03 Aug 2019 15:44:20 +0200
+
+node-uri-path (1.0.0-2) unstable; urgency=medium
+
+  * Team upload
+  * Bump debhelper compatibility level to 12
+  * Declare compliance with policy 4.4.0
+  * Change section to javascript
+  * Add debian/gbp.conf
+  * Update debian/watch to use npm registry
+  * Move installed files to /usr/share/nodejs
+  * Add upstream/metadata
+  * Update VCS fields to salsa
+  * Fix debian/copyright
+  * Enable upstream test using pkg-js-tools
+
+ -- Xavier Guimard <yadd@debian.org>  Sat, 13 Jul 2019 10:01:25 +0200
+
+node-uri-path (1.0.0-1) unstable; urgency=medium
+
+  * Initial release
+
+ -- Thorsten Alteholz <debian@alteholz.de>  Fri, 04 Mar 2016 16:42:44 +0100
